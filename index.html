@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>給你的專屬旋律</title>
+    <style>
+        body {
+            font-family: 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            /* 富士山晨曦藍漸層 (雲朵白 to 淺湖藍) */
+            background: linear-gradient(135deg, #f0f4f8 0%, #d1e3f3 50%, #a2c2e1 100%);
+            color: #2c3e50;
+            overflow: hidden;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.45);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            border-radius: 30px;
+            padding: 30px 15px;
+            width: 92%;
+            max-width: 400px;
+            box-shadow: 0 15px 35px rgba(162, 194, 225, 0.3);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 1rem;
+            margin: 0 0 8px 0;
+            color: #5d6d7e;
+            font-weight: 400;
+            letter-spacing: 2px;
+        }
+
+        p.sub-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #34495e;
+            margin: 0 0 20px 0;
+            text-shadow: 1px 1px 2px rgba(255,255,255,0.8);
+        }
+
+        .spotify-wrapper {
+            background: #282828;
+            border-radius: 12px;
+            overflow: hidden;
+            min-height: 352px;
+            line-height: 0;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .footer {
+            margin-top: 25px;
+            font-size: 0.82rem;
+            white-space: nowrap; /* 強制不換行 */
+            letter-spacing: 0.2px;
+            color: #5d6d7e;
+            display: block;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="glass-card">
+        <h1>最後一份驚喜</h1>
+        <p class="sub-title">這首歌送給最好的你 ✨</p>
+        
+        <div class="spotify-wrapper">
+            <iframe 
+                src="https://open.spotify.com/embed/track/3TVPKNJMvHe27MoAl0MWOP?utm_source=generator" 
+                width="100%" 
+                height="352" 
+                frameborder="0" 
+                allowtransparency="true" 
+                allow="encrypted-media">
+            </iframe>
+        </div>
+
+        <div class="footer">
+            是我先看到的，但很高興我們一起聽著 ❤️
+        </div>
+    </div>
+
+</body>
+</html>
